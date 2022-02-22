@@ -1,5 +1,4 @@
 import torch
-from loguru import logger
 
 
 def pad_batch(h_node, batch, max_input_len, get_mask=False):

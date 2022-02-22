@@ -8,7 +8,7 @@ from torch_geometric.nn import (
     global_mean_pool,
 )
 
-from modules.gnn_module import GNNNodeEmbedding
+from dependencies.graphtrans.modules.gnn_module import GNNNodeEmbedding
 
 from .base_model import BaseModel
 
